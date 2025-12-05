@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+button,
+select {
+  font-family: "Sora", sans-serif;
+  background-color: rgb(14, 112, 173);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+header {
+  background-color: rgb(14, 112, 173);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+main {
+  border-radius: 10px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .filters {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+
+    button {
+      padding: 5px 30px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(14, 112, 173);
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .addStudent {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 10px;
+
+    button {
+      padding: 10px 30px;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(14, 112, 173);
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+form {
+  background-color: rgb(14, 112, 173);
+  font-family: "Sora", sans-serif;
+  width: 40%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+
+  color: white;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+
+  .formHader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      background-color: lightcoral;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 10px;
+    }
+  }
+
+  input {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  select {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+
+    thead {
+         background-color: rgb(14, 112, 173);
+         color: white;
+         font-size: 26px;
+         
+         th {
+            padding: 10px;
+         }
+    }
+
+    tbody {
+       font-size: 24px;
+
+       td {
+            padding: 10px;
+       }
+    }
+}

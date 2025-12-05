@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seance2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Students Management System</h1>
+        <p>
+            Welcome to the Students Management System. Here you can manage student records efficiently.
+        </p>
+    </header>
+    <main>
+        <div class="actions">
+            <div class="filters">
+                <h3>Filters here : </h3>
+                <button id="filter-btn-1"> Grade > 10 </button>
+                <button id="filter-btn-2"> Grade <= 10 </button>
+                        <select  id="filter-section">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                        </select>
+            </div>
+
+            <div class="addStudent">
+                <h3>Add Student</h3>
+                <button class="btn-add">Add</button>
+            </div>
+        </div>
+
+
+        <form action="">
+            <div class="formHader">
+                <h3>Add Student Form</h3>
+                <button class="btn-close">Close</button>
+            </div>
+
+
+            <label for="firstName">First Name :</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name :</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="section"> Section : </label>
+            <select name="section" id="section">
+                <option value="A">Section A</option>
+                <option value="B">Section B</option>
+                <option value="C">Section C</option>
+            </select>
+
+
+            <label for="grade">Grade :</label>
+            <input type="number" id="grade" name="grade" required>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <table class="studentList" border="1">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Section</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody class="studentList-ui">
+               
+            </tbody>
+        </table>
+
+
+    </main>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
