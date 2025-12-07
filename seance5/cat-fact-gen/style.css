@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+    #fetch-fact-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 5px;
+    }
+
+    #cat-fact-display {
+        margin-top: 20px;
+        font-size: 18px;
+        background-color: lightgreen;
+        padding: 15px;
+        color: white;
+        border-radius: 5px;
+        width: fit-content;
+        border: dashed 2px green;
+    }
+
+    .error {
+        color: red;
+        background-color: darkred;
+    }
+
+
