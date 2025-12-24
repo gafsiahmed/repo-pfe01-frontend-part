@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   gap: 8px;
+   background-color: #1B211A;
+   
+   h1 {
+        color: #628141;
+
+   }
+}
+
+#fetch-button{
+    background-color: #628141;
+    color: #EBD5AB;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+
+}
+#fetch-button:hover {
+            background-color: #4a6a2a;
+
+}
+#user-container {
+    background-color: #0a0b0a;
+    width: 80%;
+    height: 50vh;
+    padding: 20px;
+    border: dashed #628141 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    border: solid black 1px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color:#628141 ;
+    color: #EBD5AB;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+}
